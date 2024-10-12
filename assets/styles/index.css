@@ -70,7 +70,7 @@ body {
 }
 .social-icons i {
     color: white;
-    font-size: 26px;
+    font-size: 27px;
     cursor: pointer;
 }
 
@@ -88,19 +88,21 @@ body {
 
 .link{
     display: flex;
-    gap: 20px;
     width: 90%;
     height: 65px;
     border: solid 2px white;
     border-radius: 20px;
     background-color: rgb(37, 37, 37);
 }
-.linkImg{
-    max-width: 20%;
-}
-.linkImg#portfolio{
-    margin-bottom: 5px;
-    width: 70px;
+.linkIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    color: #fff;
+    font-size: x-large;
+    text-align: center;
+    height: 100%;
 }
 .linkTexts{
     display: flex;
