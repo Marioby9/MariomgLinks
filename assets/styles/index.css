@@ -9,7 +9,6 @@ body {
     flex-direction: column;
     background-color: #101010;
     font-family: "Onest", system-ui;
-    padding-bottom: 20px;
 }
 
 .profile-card {
@@ -67,6 +66,7 @@ body {
     justify-content: center;
     gap: 30px;
     margin-top: 10px;
+    text-decoration: none;
 }
 .social-icons i {
     color: white;
@@ -93,6 +93,7 @@ body {
     border: solid 2px white;
     border-radius: 20px;
     background-color: rgb(37, 37, 37);
+    text-decoration: none;
 }
 .linkIcon{
     display: flex;
@@ -116,4 +117,39 @@ body {
 
 .linkTitle{
     font-size: 20px;
+}
+
+.videoCont{
+    margin-top: 35px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.videoOptions{
+    font-size: large;
+    font-weight: 600;
+    color: #000;
+    display: flex;
+    background-color: #696f82;
+    border-radius: 20px;
+}
+.videoButton{
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.video{
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.footer{
+    margin-top: 30px;
+    padding: 15px 0;
+    background-color: #0000007b;
+    width: 100%;
+    color: #fcfbbb;
+    text-align: center;
 }
